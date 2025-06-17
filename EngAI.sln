@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngAI", "EngAI\EngAI.csproj", "{B3CACB3C-5B45-4C04-8076-89196F869260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngAI-Test", "EngAI.Test\EngAI.Test.csproj", "{79934880-BF09-4531-B29B-92E987606FE5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B3CACB3C-5B45-4C04-8076-89196F869260} = {B3CACB3C-5B45-4C04-8076-89196F869260}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3CACB3C-5B45-4C04-8076-89196F869260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CACB3C-5B45-4C04-8076-89196F869260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CACB3C-5B45-4C04-8076-89196F869260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CACB3C-5B45-4C04-8076-89196F869260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79934880-BF09-4531-B29B-92E987606FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79934880-BF09-4531-B29B-92E987606FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79934880-BF09-4531-B29B-92E987606FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

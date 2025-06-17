@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "secretStore": null,
+      "resourceId": null,
+      "type": "secrets.user",
+      "connectionId": null
+    },
+    "redis1": {
+      "ignored": "true",
+      "type": "redis"
+    },
+    "postgresql1": {
+      "ignored": "true",
+      "type": "postgresql"
+    },
+    "identityapp1": {
+      "ignored": "true",
+      "type": "identityapp"
+    }
+  }
+}

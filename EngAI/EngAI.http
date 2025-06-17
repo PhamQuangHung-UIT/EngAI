@@ -1,0 +1,6 @@
+@EngAI_HostAddress = http://localhost:32770
+
+GET {{EngAI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

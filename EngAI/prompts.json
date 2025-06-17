@@ -1,0 +1,7 @@
+{
+  "grammarPromptFile": "Prompts/grammar-prompt",
+  "vocabularyPromptFile": "Prompts/vocabulary-prompt",
+  "conversationPromptFile": "Prompts/conversation-prompt",
+  "pronunciationPromptFile": "Prompts/pronunciation-prompt",
+  "wordStressPromptFile": "Prompts/word-stress-prompt",
+}
